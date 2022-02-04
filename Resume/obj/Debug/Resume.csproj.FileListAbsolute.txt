@@ -13,4 +13,3 @@ C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\obj\Debug\Resume.pdb
 C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\bin\Debug\itextsharp.dll
 C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\bin\Debug\itextsharp.xml
-C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\obj\Debug\Resume.csproj.CopyComplete

@@ -23,12 +23,7 @@ namespace Resume
             InitializeComponent();
         }
 
-        public class Resumepdf
-        {
-            public string Name { get; set; }
-            public string Contact { get; set; }
-           
-    }
+      
 
         private void buttonOne_Click_1(object sender, EventArgs e)
         {
@@ -36,6 +31,20 @@ namespace Resume
             Resumepdf record = JsonConvert.DeserializeObject<Resumepdf>(filedata);
             MessageBox.Show(record.Name);
             MessageBox.Show(record.Contact);
+
+            Document jsonresumepdf = new Document();
+            PdfWriter.GetInstance(jsonresumepdf, new FileStream(@"C:\Users\Jv Cataquiz\output\Cataquiz, Jerick Vegile M.pdf", FileMode.Create));
+            jsonresumepdf.Open();
+            Paragraph p1 = new Paragraph(record.Name);
+            jsonresumepdf.Add(p1);
+            jsonresumepdf.Close();
+
+        }
+        public class Resumepdf
+        {
+            public string Name { get; set; }
+            public string Contact { get; set; }
+
         }
 
     }
