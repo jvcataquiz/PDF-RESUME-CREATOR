@@ -30,6 +30,7 @@ namespace Resume
         private void InitializeComponent()
         {
             this.buttonOne = new System.Windows.Forms.Button();
+            this.richTextBoxSonfile = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // buttonOne
@@ -42,11 +43,20 @@ namespace Resume
             this.buttonOne.UseVisualStyleBackColor = true;
             this.buttonOne.Click += new System.EventHandler(this.buttonOne_Click_1);
             // 
+            // richTextBoxSonfile
+            // 
+            this.richTextBoxSonfile.Location = new System.Drawing.Point(5, 21);
+            this.richTextBoxSonfile.Name = "richTextBoxSonfile";
+            this.richTextBoxSonfile.Size = new System.Drawing.Size(518, 304);
+            this.richTextBoxSonfile.TabIndex = 1;
+            this.richTextBoxSonfile.Text = "";
+            // 
             // ResumeGenerator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(535, 407);
+            this.Controls.Add(this.richTextBoxSonfile);
             this.Controls.Add(this.buttonOne);
             this.Name = "ResumeGenerator";
             this.Text = "Form1";
@@ -58,6 +68,7 @@ namespace Resume
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonOne;
+        private System.Windows.Forms.RichTextBox richTextBoxSonfile;
     }
 }
 
