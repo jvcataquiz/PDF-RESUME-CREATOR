@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using Newtonsoft.Json;
+using iTextSharp.text.pdf;
+using iTextSharp.text;
+
 
 namespace Resume
 {
@@ -20,13 +23,6 @@ namespace Resume
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string filedata = File.ReadAllText(_path);
-            Resumepdf record = JsonConvert.DeserializeObject<Resumepdf>(filedata);
-            MessageBox.Show(record.Name);
-            MessageBox.Show(record.Contact);
-        }
         public class Resumepdf
         {
             public string Name { get; set; }
@@ -34,6 +30,13 @@ namespace Resume
            
     }
 
-  
-}
+        private void buttonOne_Click_1(object sender, EventArgs e)
+        {
+            string filedata = File.ReadAllText(_path);
+            Resumepdf record = JsonConvert.DeserializeObject<Resumepdf>(filedata);
+            MessageBox.Show(record.Name);
+            MessageBox.Show(record.Contact);
+        }
+
+    }
 }

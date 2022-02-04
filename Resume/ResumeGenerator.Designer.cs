@@ -29,25 +29,25 @@ namespace Resume
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonOne = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonOne
             // 
-            this.button1.Location = new System.Drawing.Point(363, 325);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(254, 51);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonOne.Location = new System.Drawing.Point(416, 372);
+            this.buttonOne.Name = "buttonOne";
+            this.buttonOne.Size = new System.Drawing.Size(107, 23);
+            this.buttonOne.TabIndex = 0;
+            this.buttonOne.Text = "Convert to Pdf";
+            this.buttonOne.UseVisualStyleBackColor = true;
+            this.buttonOne.Click += new System.EventHandler(this.buttonOne_Click_1);
             // 
             // ResumeGenerator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(535, 407);
+            this.Controls.Add(this.buttonOne);
             this.Name = "ResumeGenerator";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -57,6 +57,7 @@ namespace Resume
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonOne;
     }
 }
 
