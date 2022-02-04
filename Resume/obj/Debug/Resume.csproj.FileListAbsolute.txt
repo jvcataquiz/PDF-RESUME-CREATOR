@@ -1,0 +1,12 @@
+C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\bin\Debug\Resume.exe.config
+C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\bin\Debug\Resume.exe
+C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\bin\Debug\Resume.pdb
+C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\obj\Debug\Resume.csproj.AssemblyReference.cache
+C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\obj\Debug\Resume.Properties.Resources.resources
+C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\obj\Debug\Resume.ResumeGenerator.resources
+C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\obj\Debug\Resume.csproj.GenerateResource.cache
+C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\obj\Debug\Resume.csproj.CoreCompileInputs.cache
+C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\obj\Debug\Resume.exe
+C:\Users\Jv Cataquiz\source\repos\Assignment9\Resume\obj\Debug\Resume.pdb
