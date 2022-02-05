@@ -59,7 +59,7 @@ namespace Resume
             this.Controls.Add(this.richTextBoxSonfile);
             this.Controls.Add(this.buttonOne);
             this.Name = "ResumeGenerator";
-            this.Text = "Form1";
+            this.Text = "PDF RESUME CREATOR";
             this.ResumeLayout(false);
 
         }

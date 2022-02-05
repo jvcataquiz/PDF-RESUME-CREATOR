@@ -44,17 +44,25 @@ namespace Resume
             jsonresumepdf.Open();
 
             //creating paragraph to pass the value of json  
+            iTextSharp.text.Image myImage = iTextSharp.text.Image.GetInstance(record.ProfileImage);
             Paragraph name = new Paragraph(record.Name);
             Paragraph contact = new Paragraph(record.Contact);
+          
+
+
+
 
             //organizing the location of the value of json
-            name.Alignment = Element.ALIGN_CENTER;
-            contact.Alignment = Element.ALIGN_RIGHT;
+            myImage.ScalePercent(10f);
+            myImage.Alignment = 6;
+            name.Alignment = Element.ALIGN_LEFT;
+            contact.Alignment = Element.ALIGN_LEFT;
 
             //inserting the value
+            jsonresumepdf.Add(myImage);
             jsonresumepdf.Add(name);
             jsonresumepdf.Add(contact);
-
+            
 
             jsonresumepdf.Close();
          
@@ -62,6 +70,7 @@ namespace Resume
         }
         public class Resumepdf
         {
+            public string ProfileImage { get; set; }
             public string Name { get; set; }
             public string Contact { get; set; }
 
