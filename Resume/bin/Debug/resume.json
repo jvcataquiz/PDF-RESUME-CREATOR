@@ -4,9 +4,32 @@
             "Contact":"0934732642",
             "Address": "Sampaloc Manila",
             "Age": "25",
-            "Birthday": "Feb 2019",
-            "Objective": "Seeking a position in life to utilize my skills and abilities and achieve professional growth while being resourceful, innovative and flexible. To add valuable assets to your esteemed organization as an active member.",
-            "Elementary":"Bancuro Elementary School",
-            "HighSchool":"San Agustin National High School",
-            "College":" PUP"
+            "Birthday": "Feb 23 2019",
+            "Objective": "                     Seeking a position in life to utilize my skills and abilities and achieve professional growth while being resourceful, innovative and flexible. To add valuable assets to your esteemed organization as an active member.",
+            "Elementary":"Sample Elementary School",
+            "HighSchool":"Sample National High School",
+            "College":"Polytechnic University of the Philippines",
+            "Work1" : "Sample1            (200* - 200*)",
+            "Work2" : "Sample1            (200* - 200*)",
+
+            "Skill1" : " Knowledgeable about Programming and Web Development",
+            "Skill2": "Oriented in Microsoft Office application.",
+            "Skill3": "Skillful in installing programs and applications. ",
+            "Skill4": "Capable of editing pictures, files, Videos and presentation",
+
+            "Cplus": 90,
+            "Python": 80, 
+            "Csharp": 70, 
+            "PHP": 85, 
+            "JS": 78,
+            
+            "Char1": "Engr. Juan Tamad (Manager)",
+            "Char2": "Engr. Juan Dela Cruz (CEO)",
+            "Char3": "Engr. Josh Cruz (IT Specialist)",
+
+            
+
+
+            "Proof": "I hereby certify that the above statements are true and correct to the best of knowledge and belief. ",
+            "Signature":"profile.jpg"
 }

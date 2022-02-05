@@ -45,6 +45,7 @@ namespace Resume
             // 
             // richTextBoxSonfile
             // 
+            this.richTextBoxSonfile.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxSonfile.Location = new System.Drawing.Point(5, 21);
             this.richTextBoxSonfile.Name = "richTextBoxSonfile";
             this.richTextBoxSonfile.Size = new System.Drawing.Size(518, 304);
