@@ -30,6 +30,7 @@ namespace Resume
             InitializeComponent();
             filedata = File.ReadAllText(_path);
             richTextBoxSonfile.Text = filedata;
+            labelfile.Text = _path;
         }
 
       
